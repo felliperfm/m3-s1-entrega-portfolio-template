@@ -1,0 +1,13 @@
+.container-layout {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.container-content {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto 5rem;
+    padding: 1.5rem;
+}

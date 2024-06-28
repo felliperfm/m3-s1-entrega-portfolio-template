@@ -1,0 +1,25 @@
+.bannerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.titleLabel {
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 780px) {
+    .bannerSection {
+        flex-direction: row;
+    }
+}

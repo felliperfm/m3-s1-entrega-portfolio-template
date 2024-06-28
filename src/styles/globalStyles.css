@@ -1,0 +1,33 @@
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-white-transparency: rgba(255, 255, 255, 0.5);
+    --color-primary: rgba(104, 128, 255, 1);
+    --color-primary-hover: rgba(124, 145, 255, 1);
+
+    --font-primary: "Inter", sans-serif;
+
+    --font-size-title1: 48px;
+    --font-weight-title1: 700;
+
+    --font-size-title2: 40px;
+    --font-weight-title2: 600;
+    
+    --font-size-title3: 22px;
+    --font-weight-title3: 700;
+    
+    --font-size-label: 14px;
+    --font-weight-label: 400;
+    
+    --font-size-link: 16px;
+    --font-weight-link: 700;
+    
+    --font-size-paragraph: 16px;
+    --font-weight-paragraph: 400;
+}
+
+body {
+    background-color: var(--color-black);
+    font-family: var(--font-primary);
+    color: var(--color-white);
+}

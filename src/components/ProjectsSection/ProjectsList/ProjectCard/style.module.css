@@ -1,0 +1,17 @@
+.projectCard {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    margin-bottom: 1rem;
+}
