@@ -1,5 +1,5 @@
-import { ProjectCard } from "./ProjectCard"
-import { projects } from "../../../data/projects.js"
+import { ProjectCard } from "./ProjectCard";
+import { projects } from "../../../data/projects.js";
 
 export const ProjectsList = () => {
     return (
@@ -9,4 +9,4 @@ export const ProjectsList = () => {
             ))}
         </ul>
     )
-}
+};

@@ -1,6 +1,6 @@
-import { username } from "../../data/user.js"
-import bannerImage from "../../assets/banner-img.png"
-import styles from "./styles.module.css"
+import { username } from "../../data/user.js";
+import bannerImage from "../../assets/banner-img.png";
+import styles from "./styles.module.css";
 
 export const BannerSection = () => {
     return (
@@ -16,4 +16,4 @@ export const BannerSection = () => {
             <img src={bannerImage} alt="Ilustração de desenvolvimento web" />
         </section>
     )
-}
+};

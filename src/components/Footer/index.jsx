@@ -1,8 +1,8 @@
-import whatsappIcon from "../../assets/whatsapp-icon.png"
-import linkedinIcon from "../../assets/linkedin-icon.png"
-import githubIcon from "../../assets/github-icon.png"
-import { user } from "../../data/user.js"
-import styles from "./style.module.css"
+import whatsappIcon from "../../assets/whatsapp-icon.png";
+import linkedinIcon from "../../assets/linkedin-icon.png";
+import githubIcon from "../../assets/github-icon.png";
+import { user } from "../../data/user.js";
+import styles from "./style.module.css";
 
 export const Footer = () => {
     return (
@@ -20,4 +20,4 @@ export const Footer = () => {
             </div>
         </footer>
     )
-}
+};

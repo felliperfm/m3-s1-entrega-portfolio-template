@@ -1,5 +1,5 @@
 import { HomePage } from "./pages/HomePage";
-import "./styles/index.css"
+import "./styles/index.css";
 
 function App() {
 
@@ -8,6 +8,6 @@ function App() {
       <HomePage/>
     </>
   )
-}
+};
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-import styles from "./style.module.css"
+import styles from "./style.module.css";
 
 export const TechCard = ({ image, name }) => {
     return (
@@ -7,4 +7,4 @@ export const TechCard = ({ image, name }) => {
             <h3 className="title sm">{name}</h3>
         </li>
     )
-}
+};

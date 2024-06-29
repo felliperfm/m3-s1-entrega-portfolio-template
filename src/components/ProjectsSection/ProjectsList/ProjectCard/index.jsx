@@ -1,5 +1,5 @@
-import styles from "./style.module.css"
-import gitIcon from "../../../../assets/git-icon.png"
+import styles from "./style.module.css";
+import gitIcon from "../../../../assets/git-icon.png";
 
 export const ProjectCard = ({ name, description }) => {
     return (
@@ -14,4 +14,4 @@ export const ProjectCard = ({ name, description }) => {
             <img src={gitIcon} alt="Ícone do Git" />
         </li>
     )
-}
+};

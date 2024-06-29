@@ -1,21 +1,16 @@
-import { AboutMeSection } from "../components/AboutMeSection"
-import { BannerSection } from "../components/BannerSection"
-import { Footer } from "../components/Footer"
-import { Header } from "../components/Header"
-import { ProjectsSection } from "../components/ProjectsSection"
-import { TechSection } from "../components/TechSection"
+import { AboutMeSection } from "../components/AboutMeSection";
+import { BannerSection } from "../components/BannerSection";
+import { ProjectsSection } from "../components/ProjectsSection";
+import { TechSection } from "../components/TechSection";
+import { PageTemplate } from "./PageTemplate";
 
 export const HomePage = () => {
     return (
-        <>
-            <Header />
-            <main>
-                <BannerSection />
-                <AboutMeSection />
-                <TechSection />
-                <ProjectsSection />
-            </main>
-            <Footer />
-        </>
+        <PageTemplate>
+            <BannerSection />
+            <AboutMeSection />
+            <TechSection />
+            <ProjectsSection />
+        </PageTemplate>
     )
-}
+};

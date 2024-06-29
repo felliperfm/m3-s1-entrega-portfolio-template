@@ -1,5 +1,5 @@
-import { TechList } from "./TechList"
-import styles from "./style.module.css"
+import { TechList } from "./TechList";
+import styles from "./style.module.css";
 
 export const TechSection = () => {
     return (
@@ -8,4 +8,4 @@ export const TechSection = () => {
             <TechList />
         </section>
     )
-}
+};
